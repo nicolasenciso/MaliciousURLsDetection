@@ -1,0 +1,146 @@
+
+*** ACCURACY GAUSSIAN BAYES **************
+0.3581680033769523
+
+ ***** RESULTS BAYES GAUSSIAN bayes Gaussian********
+
+[[ 983 6063]
+ [  19 2411]]
+              precision    recall  f1-score   support
+
+           0       0.98      0.14      0.24      7046
+           1       0.28      0.99      0.44      2430
+
+    accuracy                           0.36      9476
+   macro avg       0.63      0.57      0.34      9476
+weighted avg       0.80      0.36      0.30      9476
+
+****** AUC BAYES GAUSSIAN bayes Gaussian *********
+0.8672660494411213
+
+ ***** RESULTS LOGISTIC REGRESSION LogReg********
+
+[[6315  731]
+ [1363 1067]]
+              precision    recall  f1-score   support
+
+           0       0.82      0.90      0.86      7046
+           1       0.59      0.44      0.50      2430
+
+    accuracy                           0.78      9476
+   macro avg       0.71      0.67      0.68      9476
+weighted avg       0.76      0.78      0.77      9476
+
+
+*** ACCURACY **************
+0.7790206838328408
+****** AUC LOGISCTIC REGRESSION LogReg *********
+0.8347811968148171
+
+ ***** RESULTS RANDOM FOREST randForest********
+
+[[6985   61]
+ [ 102 2328]]
+              precision    recall  f1-score   support
+
+           0       0.99      0.99      0.99      7046
+           1       0.97      0.96      0.97      2430
+
+    accuracy                           0.98      9476
+   macro avg       0.98      0.97      0.98      9476
+weighted avg       0.98      0.98      0.98      9476
+
+
+*** ACCURACY **************
+0.9827986492190798
+****** AUC RANDOM FOREST randForest *********
+0.9953487896702329
+
+ ***** RESULTS SVM POLYNOMIAL SVM poly********
+
+[[6983   63]
+ [1356 1074]]
+              precision    recall  f1-score   support
+
+           0       0.84      0.99      0.91      7046
+           1       0.94      0.44      0.60      2430
+
+    accuracy                           0.85      9476
+   macro avg       0.89      0.72      0.75      9476
+weighted avg       0.86      0.85      0.83      9476
+
+
+*** ACCURACY **************
+0.8502532714225411
+****** AUC SVM POLYNOMIAL SVM poly *********
+0.8742172542808049
+
+ ***** RESULTS SVM LINEAR SVM lineal********
+
+[[6501  545]
+ [1507  923]]
+              precision    recall  f1-score   support
+
+           0       0.81      0.92      0.86      7046
+           1       0.63      0.38      0.47      2430
+
+    accuracy                           0.78      9476
+   macro avg       0.72      0.65      0.67      9476
+weighted avg       0.76      0.78      0.76      9476
+
+
+*** ACCURACY **************
+0.7834529337273111
+****** AUC SVM LINEAR SVM lineal *********
+0.8238632607123791
+
+ ***** RESULTS SVM GAUSSIAN C=1.11 gamma=0.09*****SVM Gauss***
+
+[[6977   69]
+ [ 855 1575]]
+              precision    recall  f1-score   support
+
+           0       0.89      0.99      0.94      7046
+           1       0.96      0.65      0.77      2430
+
+    accuracy                           0.90      9476
+   macro avg       0.92      0.82      0.86      9476
+weighted avg       0.91      0.90      0.90      9476
+
+
+*** ACCURACY **************
+0.9024905023216547
+****** AUC SVM GAUSSIAN SVM Gauss *********
+0.9434322249205398
+[1 1 0 ... 0 0 0]
+21675    0
+9767     1
+20679    0
+43563    0
+20562    0
+        ..
+9727     1
+29602    0
+32132    0
+12550    0
+30334    0
+Name: class, Length: 9476, dtype: int64
+
+ ***** RESULTS SVM SIGMOID SVM sigmoid********
+
+[[5602 1444]
+ [1527  903]]
+              precision    recall  f1-score   support
+
+           0       0.79      0.80      0.79      7046
+           1       0.38      0.37      0.38      2430
+
+    accuracy                           0.69      9476
+   macro avg       0.59      0.58      0.58      9476
+weighted avg       0.68      0.69      0.68      9476
+
+
+*** ACCURACY **************
+0.6864710848459266
+****** AUC SVM SIGMOID SVM sigmoid *********
+0.42198947772953516
